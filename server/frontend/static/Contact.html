@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us - AutoPulse Dealership</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}
+    .nav{background:#0b3d91;color:#fff;padding:12px}
+    .nav a{color:#fff;margin-right:12px;text-decoration:none}
+    .container{max-width:900px;margin:20px auto;padding:20px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .contact-card{border:1px solid #ddd;padding:16px;border-radius:8px}
+    .active{font-weight:bold;text-decoration:underline}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <a href="/index.html">Home</a>
+      <a href="/static/Contact.html" class="active">Contact Us</a>
+      <a href="/static/About.html">About Us</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you. Use the details below to reach the AutoPulse team.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Head Office</h3>
+        <p>AutoPulse Inc.<br>1234 Market St.<br>City, State 12345</p>
+        <p><strong>Email:</strong> <a href="mailto:support@autopulse.com">support@autopulse.com</a></p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Support</h3>
+        <p>For technical support and deployment issues:</p>
+        <p><strong>Email:</strong> <a href="mailto:devops@autopulse.com">devops@autopulse.com</a></p>
+        <p><strong>Office Hours:</strong> Mon-Fri 09:00 - 18:00</p>
+      </div>
+    </div>
+
+    <h2>Send us a message</h2>
+    <form action="#" method="post">
+      <label>Name<br><input type="text" name="name" required></label><br><br>
+      <label>Email<br><input type="email" name="email" required></label><br><br>
+      <label>Message<br><textarea name="message" rows="5" required></textarea></label><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</body>
+</html>
